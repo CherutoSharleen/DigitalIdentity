@@ -1,3 +1,9 @@
+#Simple interface for voice recording
+#depends on the file source.py that has helper functions
+#saves files as .mp3. Should be saved as wav file for voice comparison
+# can be overwritten when user saves completely should be sent to storage and the path stored in the DB
+
+
 import streamlit as st
 from source import read_audio, record, save_record
 filename = 5
